@@ -1,0 +1,6 @@
+{
+  "name": "AutoCaption Studio",
+  "description": "CapCut-style animated captions generator for YouTube Shorts and Reels with AI transcription, word-by-word highlights, and high-quality video export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

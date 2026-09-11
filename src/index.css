@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+/* Extended & Viral Display Fonts */
+@font-face {
+  font-family: 'Akira Expanded';
+  font-style: normal;
+  font-weight: 100 900;
+  src: local('Akira Expanded'), local('Akira Expanded Demo'), url('https://fonts.cdnfonts.com/s/37506/Akira Expanded Demo.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monument Extended';
+  font-style: normal;
+  font-weight: 700 900;
+  src: local('Monument Extended Ultrabold'), local('Monument Extended Bold'), local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monument Extended';
+  font-style: normal;
+  font-weight: 300 600;
+  src: local('Monument Extended Regular'), local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-style: normal;
+  font-weight: 600 900;
+  src: local('Apple Garamond Bold'), local('Apple Garamond'), url('https://fonts.cdnfonts.com/s/8857/AppleGaramond-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-style: italic;
+  font-weight: 600 900;
+  src: local('Apple Garamond Bold Italic'), local('Apple Garamond Italic'), url('https://fonts.cdnfonts.com/s/8857/AppleGaramond-BoldItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-style: normal;
+  font-weight: 300 500;
+  src: local('Apple Garamond Regular'), local('Apple Garamond'), url('https://fonts.cdnfonts.com/s/8857/AppleGaramond.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 100 900;
+  src: local('Impact'), url('https://fonts.cdnfonts.com/s/87898/impact.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Batica Sans';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Batica Sans'), local('BaticaSans-Regular'), url('https://fonts.cdnfonts.com/s/135522/BaticaSans-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Craos';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Craos'), url('https://fonts.cdnfonts.com/s/148706/Craos-2vZye.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brunson';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Brunson'), local('BrunsonRegular'), url('https://fonts.cdnfonts.com/s/152150/BrunsonRegular-yYzXV.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tempting';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Tempting'), url('https://fonts.cdnfonts.com/s/90882/Tempting - PERSONAL USE ONLY.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Butler';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Butler'), local('Butler_Regular'), url('https://fonts.cdnfonts.com/s/16241/Butler_Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-style: normal;
+  font-weight: 300 900;
+  src: local('Caviar Dreams'), url('https://fonts.cdnfonts.com/s/77/CaviarDreams.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Voga';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Voga'), local('Voga-Medium'), url('https://fonts.cdnfonts.com/s/18467/Voga-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coco';
+  font-style: normal;
+  font-weight: 300 900;
+  src: local('Coco'), local('Coco-Regular'), url('https://fonts.cdnfonts.com/s/18515/Coco-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soria';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Soria'), local('Soria-Bold'), url('https://fonts.cdnfonts.com/s/78809/Soria-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sanford';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Sanford'), url('https://fonts.cdnfonts.com/s/8863/SANFW___.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monar';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Monar'), local('MonarRegular'), url('https://fonts.cdnfonts.com/s/151383/MonarRegular-0vMK4.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Morganite';
+  font-style: normal;
+  font-weight: 400 900;
+  src: local('Morganite'), local('Morganite-Bold'), url('https://fonts.cdnfonts.com/s/15530/Morganite-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+/* Studio custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 17, 23, 0.6);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(250, 204, 21, 0.25);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(250, 204, 21, 0.5);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.18s ease-out forwards;
+}
